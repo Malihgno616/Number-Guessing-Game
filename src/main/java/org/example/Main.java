@@ -28,19 +28,19 @@ public class Main {
                     System.out.println("Great! You have selected the Easy difficulty level.\n" +
                             "Let's start the game!");
                     levelGuessNumber(10);
-                    System.out.println("That number was " + numberToGuess);
+                    System.out.println("\nThat number was " + numberToGuess);
                     break;
                 case 2:
                     System.out.println("Great! You have selected the Medium difficulty level.\n" +
                             "Let's start the game!");
                     levelGuessNumber(5);
-                    System.out.println("That number was " + numberToGuess);
+                    System.out.println("\nThat number was " + numberToGuess);
                     break;
                 case 3:
                     System.out.println("Great! You have selected the Hard difficulty level.\n" +
                             "Let's start the game!");
                     levelGuessNumber(3);
-                    System.out.println("That number was " + numberToGuess);
+                    System.out.println("\nThat number was " + numberToGuess);
                     break;
                 default:
                     System.out.println("Invalid input.");
@@ -55,7 +55,7 @@ public class Main {
         int tries = 0;
 
         while(chances > 0) {
-            System.out.println("\nEnter your guess:");
+            System.out.print("\nEnter your guess:");
             int inputNumber = scan.nextInt();
             tries++;
             chances--;
